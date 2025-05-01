@@ -1,0 +1,95 @@
+.all{
+    background-color:beige;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333; 
+    list-style-type: none;
+}
+li a{
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+li a:hover{
+    background-color: #111;
+}
+.Container{
+    background-color: cadetblue;
+}
+.carousel-inner img{
+    width: 100%;
+}
+.first1{
+    height: 70px;
+    width: 95%;
+    display: flex;
+    justify-content:end;
+    margin-bottom: 10px;
+}
+.header1{
+    margin-top: 5px;
+    padding: 5px;
+    text-align: center;
+
+}
+.intro{
+    margin: 5px;
+    padding: 5px;
+}
+.intro p{
+    text-align: justify;
+}
+.to-top{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    color: black;
+    background-color: white;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale();
+    transition: bottom 200ms, transform 200ms;
+
+}
+.to-top:hover{
+    bottom: 35px;
+
+}
+.to-top.show{
+    transform: scale(1);
+}
+.hnS{
+    margin: 10px;
+}
+#hs{
+    text-align: justify;
+}
+.btn1{
+    width: 10%;
+    background-color: #333;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn2{
+    width: 10%;
+    background-color: #333;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
